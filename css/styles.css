@@ -1,8 +1,53 @@
+body{
+    margin: 20px;
+    font-family: Verdana, sans-serif;    
+}
+
 input {
     width: 200px;
+    padding: 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+select[name="recommend"]{
+    margin-top: 3px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#comments{
+    width: 500px;
+    height: 40px;
 }
 
 input[type="radio"]{
     width: 30px;
-    
+
+}
+
+input[name="email"]{
+    background-color: #eeeeee;
+}
+
+p label{
+    font-family: Tahoma, sans-serif;
+}
+
+input[type="checkbox"]{
+    width: 30px;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
 }
